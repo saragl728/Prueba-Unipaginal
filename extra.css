@@ -1,0 +1,33 @@
+body {
+  background-color: #aaff99;
+}
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  margin: 3px;
+  background-image: radial-gradient(#ffd95dbb, #e0bc6e42);
+  border-radius: 2px;
+  border: groove #e0bc6ea9 4px;
+  padding: 10px;
+}
+
+q {
+  color: #e6d575;
+  background-color: #000000;
+}
+
+q:hover {
+  background-color: #e6d575;
+  color: #000000;
+}
+
+img {
+  margin: 5px;
+}
+
+img:hover {
+  border: solid #ffaa00 2px;
+  filter: blur(3px);
+}

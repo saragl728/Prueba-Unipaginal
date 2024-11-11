@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prueba</title>
+  <link id="tema" rel="stylesheet" href="primera.css" />
+</head>
+
+<body>
+  <h1 id="acheUno">Estoy aquí</h1>
+  <button onclick="cambiaEstilo('primera.css')" title="Primero" id="primero">
+    Primero
+  </button>
+  <button onclick="cambiaEstilo('segunda.css')" title="Segundo" id="segundo">
+    Segundo
+  </button>
+  <button onclick="cambiaEstilo('modoClaro.css')" title="Modo claro" id="modo_claro">
+    Modo claro
+  </button>
+  <button onclick="cambiaEstilo('modoOscuro.css')" title="Modo oscuro" id="modo_oscuro">
+    Modo oscuro
+  </button>
+  <button onclick="cambiaEstilo('extra.css')" title="Extra" id="extra">
+    Extra
+  </button>
+  <br>
+  <img src="criatura.png" alt = "criatura">
+  <p id="desc1">Se ve diferente si le das a los botones.</p>
+  <p id="auxImg">Pon el ratón encima de la criatura.</p>
+  <q id="modulo_lunar">Haré mi propio módulo lunar.</q>
+  <q id="come_roca">Come roca. Qué listo soy.</q>
+  <q id="tusMuertos">Todos son idiotas excepto yo.</q>
+  <script>
+    function cambiaEstilo(hoja) {
+      let tema = document.getElementById("tema");
+      tema.setAttribute("href", hoja);
+    }
+
+    //esto comprueba el idioma del navegador y cambia el contenido
+    switch (navigator.language) {
+      case "es-ES":
+      case "es-AR":
+        document.getElementById("acheUno").innerHTML = "Estoy aquí";
+        document.getElementById("primero").textContent = "Primero";
+        document.getElementById("primero").title = "Primero";
+        document.getElementById("segundo").textContent = "Segundo";
+        document.getElementById("segundo").title = "Segundo";
+        document.getElementById("modo_claro").textContent = "Modo claro";
+        document.getElementById("modo_claro").title = "Modo claro";
+        document.getElementById("modo_oscuro").textContent = "Modo oscuro";
+        document.getElementById("modo_oscuro").title = "Modo oscuro";
+        document.getElementById("desc1").innerHTML =
+          "Se ve diferente si le das a los botones";
+        document.getElementById("modulo_lunar").innerHTML =
+          "Haré mi propio módulo lunar";
+        document.getElementById("come_roca").innerHTML =
+          "Come roca. Qué listo soy.";
+        document.getElementById("tusMuertos").innerHTML = "Todos son idiotas excepto yo."
+        document.getElementById("auxImg").innerHTML = "Pon el ratón encima de la criatura";
+        break;
+      case "en-EN":
+      case "en-US":
+        document.getElementById("acheUno").innerHTML = "I'm here";
+        document.getElementById("primero").textContent = "First";
+        document.getElementById("primero").title = "First";
+        document.getElementById("segundo").textContent = "Second";
+        document.getElementById("segundo").title = "Second";
+        document.getElementById("modo_claro").textContent = "Light mode";
+        document.getElementById("modo_claro").title = "Light mode";
+        document.getElementById("modo_oscuro").textContent = "Dark mode";
+        document.getElementById("modo_oscuro").title = "Dark mode";
+        document.getElementById("desc1").innerHTML =
+          "It looks different if you click the buttons";
+        document.getElementById("modulo_lunar").innerHTML =
+          "I'll make my own moon module";
+        document.getElementById("come_roca").innerHTML =
+          "Eat rock. I'm so smart.";
+        document.getElementById("tusMuertos").innerHTML = "Everyone is stupid except me."
+        document.getElementById("auxImg").innerHTML = "Put the mouse over the creature.";
+        break;
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+body {
+  background-color: #dfdfdf;
+  color: #101010;
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  margin: 3px;
+  background-color: #bbe9ee;
+  border: ridge #055 4px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+q {
+  background-color: #d8c3c3;
+  color: #1d1919;
+}
+
+q:hover {
+  background-color: #1d1919;
+  color: #d8c3c3;
+}
+
+img {
+  margin: 5px;
+}
+
+img:hover {
+  border: solid #ffaa00 2px;
+  filter: sepia(100%);
+}

@@ -1,0 +1,33 @@
+body {
+  background-color: #ffee99;
+}
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  margin: 3px;
+  background-color: #e67575;
+  border-radius: 8px;
+  border: solid #88061e 4px;
+  padding: 10px;
+}
+
+q {
+  color: #e67575;
+  background-color: #000000;
+}
+
+q:hover {
+  background-color: #e67575;
+  color: #000000;
+}
+
+img {
+  margin: 5px;
+}
+
+img:hover {
+  border: solid #ffaa00 2px;
+  filter: hue-rotate(90deg);
+}
