@@ -1,8 +1,9 @@
 body {
-  background-color: #ffee99;
+  background-color: #fe9;
 }
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 5px;
 }
 
 button {
@@ -13,21 +14,28 @@ button {
   padding: 10px;
 }
 
+#pistas {
+  border: #ec0 outset 4px;
+  border-radius: 8px;
+  background-color: #fd8;
+  max-width: 33%;
+}
+
 q {
   color: #e67575;
-  background-color: #000000;
+  background-color: #000;
 }
 
 q:hover {
   background-color: #e67575;
-  color: #000000;
+  color: #000;
 }
 
 img {
-  margin: 5px;
+  padding: 5px;
 }
 
 img:hover {
-  border: solid #ffaa00 2px;
+  border: solid #fa0 2px;
   filter: hue-rotate(90deg);
 }

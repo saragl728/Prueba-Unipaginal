@@ -5,14 +5,22 @@ body {
 
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 5px;
 }
 
 button {
   margin: 3px;
-  background-color: #bbe9ee;
+  background-color: #bee;
   border: ridge #055 4px;
   border-radius: 8px;
   padding: 10px;
+}
+
+#pistas {
+  border: #0ee outset 4px;
+  border-radius: 8px;
+  background-color: #8fd;
+  max-width: 33%;
 }
 
 q {
@@ -26,10 +34,10 @@ q:hover {
 }
 
 img {
-  margin: 5px;
+  padding: 5px;
 }
 
 img:hover {
-  border: solid #ffaa00 2px;
+  border: solid #fa0 2px;
   filter: sepia(100%);
 }

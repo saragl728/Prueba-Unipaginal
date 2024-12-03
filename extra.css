@@ -1,8 +1,9 @@
 body {
-  background-color: #aaff99;
+  background-color: #af9;
 }
 * {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: cursive;
+  margin: 5px;
 }
 
 button {
@@ -13,21 +14,28 @@ button {
   padding: 10px;
 }
 
+#pistas {
+  border: #df0 outset 4px;
+  border-radius: 8px;
+  background-color: #efa;
+  max-width: 33%;
+}
+
 q {
   color: #e6d575;
-  background-color: #000000;
+  background-color: #000;
 }
 
 q:hover {
   background-color: #e6d575;
-  color: #000000;
+  color: #000;
 }
 
 img {
-  margin: 5px;
+  padding: 5px;
 }
 
 img:hover {
-  border: solid #ffaa00 2px;
+  border: solid #fa0 2px;
   filter: blur(3px);
 }

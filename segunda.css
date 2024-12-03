@@ -1,17 +1,25 @@
 body {
-  background-image: radial-gradient(#00ffff, #ce7fceb6);
+  background-image: radial-gradient(#0ff, #ce7fceb6);
 }
 
 * {
   font-family: monospace;
+  margin: 5px;
 }
 
 button {
   margin: 3px;
   background-color: #9adb9a;
   border-radius: 8px;
-  border: solid #562 4px;
+  border: outset #562 4px;
   padding: 10px;
+}
+
+#pistas {
+  border: #30f outset 4px;
+  border-radius: 8px;
+  background-color: #c8f;
+  max-width: 33%;
 }
 
 q {
@@ -25,10 +33,10 @@ q:hover {
 }
 
 img {
-  margin: 5px;
+  padding: 5px;
 }
 
 img:hover {
-  border: solid #ffaa00 2px;
+  border: solid #fa0 2px;
   filter: contrast(135%);
 }
